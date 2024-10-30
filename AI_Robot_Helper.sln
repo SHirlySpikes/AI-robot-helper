@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAI.Runtime", "OpenAI.Runtime.csproj", "{EAF9FE3D-3861-2E29-6380-61B7C1DAF10B}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{5B218B16-3389-FE4A-31D0-CB20C8DBB554}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{BB0ADA7A-9463-681A-08BE-47698C7A08CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAI.Editor", "OpenAI.Editor.csproj", "{E357A395-021B-6A8C-11A7-508BE1DA1769}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +15,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAF9FE3D-3861-2E29-6380-61B7C1DAF10B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF9FE3D-3861-2E29-6380-61B7C1DAF10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF9FE3D-3861-2E29-6380-61B7C1DAF10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF9FE3D-3861-2E29-6380-61B7C1DAF10B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5B218B16-3389-FE4A-31D0-CB20C8DBB554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5B218B16-3389-FE4A-31D0-CB20C8DBB554}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B218B16-3389-FE4A-31D0-CB20C8DBB554}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -19,6 +27,10 @@ Global
 		{BB0ADA7A-9463-681A-08BE-47698C7A08CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB0ADA7A-9463-681A-08BE-47698C7A08CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB0ADA7A-9463-681A-08BE-47698C7A08CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E357A395-021B-6A8C-11A7-508BE1DA1769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E357A395-021B-6A8C-11A7-508BE1DA1769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E357A395-021B-6A8C-11A7-508BE1DA1769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E357A395-021B-6A8C-11A7-508BE1DA1769}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
