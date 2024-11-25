@@ -1,12 +1,13 @@
 {
   "dependencies": {
     "com.srcnalt.openai-unity": {
-      "version": "file:K:/Github/OpenAI-Unity",
+      "version": "https://github.com/srcnalt/OpenAI-Unity.git",
       "depth": 0,
-      "source": "local",
+      "source": "git",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.2.1"
-      }
+      },
+      "hash": "95503471ac85848ba0d85b597419b1303fbb2c01"
     },
     "com.unity.burst": {
       "version": "1.8.12",
