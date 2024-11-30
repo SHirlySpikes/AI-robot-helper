@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.srcnalt.openai-unity": {
-      "version": "file:K:/Github/OpenAI-Unity",
+      "version": "file:/Users/max/Code/OpenAI-Unity",
       "depth": 0,
       "source": "local",
       "dependencies": {
