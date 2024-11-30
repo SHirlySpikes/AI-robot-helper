@@ -461,3 +461,283 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1135.963731 seconds.
+  path: Assets/Scenes/AI-Robot.unity
+  artifactKey: Guid(3676aeacb48984881b7d42be31dfe0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AI-Robot.unity using Guid(3676aeacb48984881b7d42be31dfe0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f7c12460f8719f3434025d26d9f8a4') in 0.005967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.974239 seconds.
+  path: Assets/Robot/robi_mit.fbx
+  artifactKey: Guid(51519a51675b4452e8e602192642cace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot/robi_mit.fbx using Guid(51519a51675b4452e8e602192642cace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1def206668e9a3ede445cbe670ad31ab') in 1.309453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 277
+========================================================================
+Received Import Request.
+  Time since last request: 79.887388 seconds.
+  path: Assets/Robot/textures
+  artifactKey: Guid(8c29296711ab04b86a579fe23e75f884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot/textures using Guid(8c29296711ab04b86a579fe23e75f884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a19d25617aae83353a17724e62ba226') in 0.003282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 565.905908 seconds.
+  path: Assets/Robot/textures/materials
+  artifactKey: Guid(67b46bfbb39b841c08f796ac4909c1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot/textures/materials using Guid(67b46bfbb39b841c08f796ac4909c1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d41242d1810be0a5cb350b8b9a108c') in 0.000894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 114.591099 seconds.
+  path: Assets/Robot/materials 1
+  artifactKey: Guid(036c891ae944c44bca5654a77c132ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot/materials 1 using Guid(036c891ae944c44bca5654a77c132ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec41cc87e9d22609b1c0eef7a5d6d28e') in 0.000448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.572345 seconds.
+  path: Assets/Robot/materials 2
+  artifactKey: Guid(036c891ae944c44bca5654a77c132ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot/materials 2 using Guid(036c891ae944c44bca5654a77c132ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9567fa5fbb78a97cfb13160629ba224') in 0.000452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 304.403069 seconds.
+  path: Assets/Robot/textures/robi_low_robot_body_Emissive.png
+  artifactKey: Guid(946777c9304f14542a9434dd8645af6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot/textures/robi_low_robot_body_Emissive.png using Guid(946777c9304f14542a9434dd8645af6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9eab587b765c439f9ae30567fba88d') in 0.064065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.856314 seconds.
+  path: Assets/Robot/textures/robi_low_robot_body_BaseMap.png
+  artifactKey: Guid(73646d74b0056429e880a1fd45a1076c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot/textures/robi_low_robot_body_BaseMap.png using Guid(73646d74b0056429e880a1fd45a1076c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24edf2bd5471743a2d834c7ddd5df16') in 0.011979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 186.908646 seconds.
+  path: Assets/Robot/textures/robi_low_robot_body_Normal.png
+  artifactKey: Guid(c07ec927de7484cbdaa3b1e69e2110d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot/textures/robi_low_robot_body_Normal.png using Guid(c07ec927de7484cbdaa3b1e69e2110d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a78814ac13327b8218ed19284d18856') in 0.018924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 98.947782 seconds.
+  path: Assets/Robot/textures 2/robi_low_robot_body_Emissive.png
+  artifactKey: Guid(bca309c059c7b43a380575bfe38cc562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot/textures 2/robi_low_robot_body_Emissive.png using Guid(bca309c059c7b43a380575bfe38cc562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d2f8ed8957c6d6bfaa990b91b0fb83') in 0.017375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Robot/textures 2/robi_low_robot_body_Specular.png
+  artifactKey: Guid(55a677662c5eb44f8b1e355a9d7014a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot/textures 2/robi_low_robot_body_Specular.png using Guid(55a677662c5eb44f8b1e355a9d7014a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b1ea6aff7607cdc79b6ba4ef83c3a3') in 0.006826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Robot/textures/robi_low_robot_body_MaskMap.png
+  artifactKey: Guid(586c472e7594c49bb9783ba485c6dc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot/textures/robi_low_robot_body_MaskMap.png using Guid(586c472e7594c49bb9783ba485c6dc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a1b7af619c2f20390433a00b56c21d') in 0.008463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Robot/textures/robi_low_robot_body_Normal.png
+  artifactKey: Guid(c07ec927de7484cbdaa3b1e69e2110d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot/textures/robi_low_robot_body_Normal.png using Guid(c07ec927de7484cbdaa3b1e69e2110d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad13cc9207319cfed469197936577798') in 0.052048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Robot/textures/robi_low_robot_body_Specular.png
+  artifactKey: Guid(86d9bbcd3724f4df49e6c76257957edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot/textures/robi_low_robot_body_Specular.png using Guid(86d9bbcd3724f4df49e6c76257957edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c3cd1a2b1c8eff2bf67f6d61dceb9c') in 0.007146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Robot/textures 2/robi_low_robot_hands_BaseMap.png
+  artifactKey: Guid(349cef9e7f4a447f7a7a2d8c8aae78e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot/textures 2/robi_low_robot_hands_BaseMap.png using Guid(349cef9e7f4a447f7a7a2d8c8aae78e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32acadc3f3e9e31b4b0559096b8da39') in 0.008283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Robot/textures 2/robi_low_robot_body_Normal.png
+  artifactKey: Guid(690d8ea32349046208499c3100599bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot/textures 2/robi_low_robot_body_Normal.png using Guid(690d8ea32349046208499c3100599bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f72832664c9a9a249139824a83b8842') in 0.007256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 41.244875 seconds.
+  path: Assets/Robot/textures 2/robi_low_robot_body_BaseMap.png
+  artifactKey: Guid(5ec9cb87ef9454539b7ced7cf14f1d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot/textures 2/robi_low_robot_body_BaseMap.png using Guid(5ec9cb87ef9454539b7ced7cf14f1d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb21f637efd04c3099ec1abfb5212c0f') in 0.035202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.025675 seconds.
+  path: Assets/Robot/textures 2/robi_low_robot_hands_Emissive.png
+  artifactKey: Guid(4b4be06ea1dc6419b94edc09f76b2864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot/textures 2/robi_low_robot_hands_Emissive.png using Guid(4b4be06ea1dc6419b94edc09f76b2864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc7288ae193fcaccb281b284850a428') in 0.023683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.653 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.406 seconds
+Domain Reload Profiling: 3061ms
+	BeginReloadAssembly (278ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (45ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (278ms)
+		LoadAssemblies (356ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (2408ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1478ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (73ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (1071ms)
+			ProcessInitializeOnLoadMethodAttributes (214ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (50ms)
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4804 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (347.8 KB). Loaded Objects now: 5485.
+Memory consumption went from 214.3 MB to 214.0 MB.
+Total: 3.451375 ms (FindLiveObjects: 0.328667 ms CreateObjectMapping: 0.068333 ms MarkObjects: 2.825292 ms  DeleteObjects: 0.228166 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.586 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.991 seconds
+Domain Reload Profiling: 2579ms
+	BeginReloadAssembly (230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (261ms)
+		LoadAssemblies (336ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (1993ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1439ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (69ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (1062ms)
+			ProcessInitializeOnLoadMethodAttributes (189ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (42ms)
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4804 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (347.5 KB). Loaded Objects now: 5489.
+Memory consumption went from 219.9 MB to 219.5 MB.
+Total: 3.022417 ms (FindLiveObjects: 0.346250 ms CreateObjectMapping: 0.082083 ms MarkObjects: 2.338084 ms  DeleteObjects: 0.254917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
