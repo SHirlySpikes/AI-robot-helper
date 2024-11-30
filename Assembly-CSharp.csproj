@@ -64,6 +64,7 @@
     <Compile Include="Assets/Samples/OpenAI Unity/0.2.2/Whisper/SaveWav.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/Samples/OpenAI Unity/0.2.2/DallE/DallE.cs" />
+    <Compile Include="Assets/AnimationEventController.cs" />
     <Compile Include="Assets/Samples/OpenAI Unity/0.2.2/ChatGPT/ChatGPT.cs" />
     <Compile Include="Assets/Samples/OpenAI Unity/0.2.2/Whisper/Whisper.cs" />
   </ItemGroup>

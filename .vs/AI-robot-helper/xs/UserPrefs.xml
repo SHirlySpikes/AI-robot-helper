@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{68EB86B1-C684-EA77-79BD-EB14FF1237C0}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Shaders/Lit.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AnimationEventController.cs">
     <Files>
       <File FileName="Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Shaders/Lit.shader" Line="1" Column="1" />
+      <File FileName="Assets/AnimationEventController.cs" Line="5" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
