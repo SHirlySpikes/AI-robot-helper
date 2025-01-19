@@ -10,6 +10,7 @@ public class ChatGPTCCaller : MonoBehaviour
     public Button chatButton;
     public InputField userInput;
     public Text outputText;
+    private ElevenLabsTTS elevenlabsTTS;
 
     private List<ChatMessage> messages = new List<ChatMessage>();
     private string prompt = "Act as a helpful robot assistant at a conference hall. Answer questions and provide directions. Use keywords like 'idle' or 'nodding' to trigger animations.";
@@ -21,6 +22,12 @@ public class ChatGPTCCaller : MonoBehaviour
 
         // Add listener to the chat button
         chatButton.onClick.AddListener(OnChatButtonClicked);
+        elevenlabsTTS = FindObjectOfType<ElevenLabsTTS>();
+        if (elevenlabsTTS == null)
+        {
+            Debug.LogError("ElevenLabsTTS script not found.");
+        }
+
     }
 
     // Method to trigger the 'idle' animation
@@ -70,6 +77,8 @@ public class ChatGPTCCaller : MonoBehaviour
 
             // Display response in output text field
             outputText.text = message.Content;
+
+            await elevenlabsTTS.PlayResponseAudio(message.Content);
         }
         else
         {

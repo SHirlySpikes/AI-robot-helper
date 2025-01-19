@@ -1734,6 +1734,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 5225016126212022177}
+    - targetCorrespondingSourceObject: {fileID: 2965562267615824257, guid: b3815c1fdeccf4701a9aa9a65f9df980,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5225016126212022178}
   m_SourcePrefab: {fileID: 100100000, guid: b3815c1fdeccf4701a9aa9a65f9df980, type: 3}
 --- !u!1 &5225016126212022173 stripped
 GameObject:
@@ -1789,6 +1793,18 @@ MonoBehaviour:
   chatButton: {fileID: 1268239471}
   userInput: {fileID: 1283144666}
   outputText: {fileID: 1094287215}
+--- !u!114 &5225016126212022178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5225016126212022173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be35e80e42224fbf99c47f0be88d77a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
