@@ -13,6 +13,7 @@ public class ElevenLabsTTS : MonoBehaviour
 
     private const string  ElevenLabsApiKey = "sk_213d53c1c3bad57da213832e5c9821f49f2db8dcb6fb21c2"; 
     private AudioSource audioSource;
+    public ChatGPTCCaller chatGPTCaller;
 
     void Start()
     {
@@ -21,6 +22,10 @@ public class ElevenLabsTTS : MonoBehaviour
         if (audioSource == null)
         {
             audioSource = gameObject.AddComponent<AudioSource>();
+        }
+        if(chatGPTCaller != null)
+        {
+            chatGPTCaller = GetComponent<ChatGPTCCaller>();
         }
     }
 
@@ -42,6 +47,8 @@ public class ElevenLabsTTS : MonoBehaviour
                     Debug.Log("Playing converted PCM audio...");
                     audioSource.clip = clip;
                     audioSource.Play();
+                    chatGPTCaller.TriggerTalkingAnimation();
+                    chatGPTCaller.StartTimerForReturningToIdle(clip.length);
                 }
                 else
                 {

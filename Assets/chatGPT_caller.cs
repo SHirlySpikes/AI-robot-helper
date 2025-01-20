@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 using OpenAI;
+using System.Collections;
 
 public class ChatGPTCCaller : MonoBehaviour
 {
@@ -11,9 +12,11 @@ public class ChatGPTCCaller : MonoBehaviour
     public InputField userInput;
     public Text outputText;
     private ElevenLabsTTS elevenlabsTTS;
+    Coroutine idleTimer;
 
     private List<ChatMessage> messages = new List<ChatMessage>();
     private string prompt = "Act as a helpful robot assistant at a conference hall. Answer questions and provide directions. Use keywords like 'idle' or 'nodding' to trigger animations.";
+    public string mostRecentlyParsedAnimation;
 
     void Start()
     {
@@ -30,16 +33,51 @@ public class ChatGPTCCaller : MonoBehaviour
 
     }
 
+    public void StartTimerForReturningToIdle(float audioClipLength)
+    {
+        if(idleTimer != null)
+        {
+            StopCoroutine(idleTimer);
+        }
+        idleTimer = StartCoroutine(StopTalkingAfterClip(audioClipLength));
+    }
+
+    IEnumerator StopTalkingAfterClip(float clipLength)
+    {
+        Debug.Log("starting timer for " + clipLength + " seconds");
+        yield return new WaitForSeconds(clipLength);
+        TriggerIdle();
+    }
+
     // Method to trigger the 'idle' animation
     public void TriggerIdle()
     {
-        animator.SetTrigger("trigger-ph-idle");
+        animator.SetTrigger("ReturnToIdle");
+    }
+
+    public void TriggerTalkingAnimation()
+    {
+        //using this for now to keep things simple.
+        animator.Play("Talking");
+        //when we want to get more complicated animations,
+        //we'll likely want to store the most recently parsed animation instruction
+        //and use it to play the correct and specific animation.
+        //for example
+        if(mostRecentlyParsedAnimation == "idle")
+        {
+            //animator.SetTrigger("ReturnToIdle")
+        }
+        else if(mostRecentlyParsedAnimation == "nodding")
+        {
+            //animator.Play("Nodding");
+            //or whatever the relevant animation state is called.
+        }
     }
 
     // Method to trigger the 'nodding' animation
     public void TriggerNodding()
     {
-        animator.SetTrigger("trigger-ph-nodding");
+        //animator.SetTrigger("trigger-ph-nodding");
     }
 
     // Method called when the chat button is clicked
@@ -59,6 +97,9 @@ public class ChatGPTCCaller : MonoBehaviour
         chatButton.enabled = false;
         userInput.text = "";
         userInput.enabled = false;
+
+        //start thinking animation
+        animator.SetTrigger("StartThinking");
 
         // Get response from OpenAI
         var completionResponse = await openai.CreateChatCompletion(new CreateChatCompletionRequest()
@@ -93,17 +134,23 @@ public class ChatGPTCCaller : MonoBehaviour
     // Parse the response from ChatGPT and trigger the corresponding animation
     private void ParseAndTriggerAnimation(string response)
     {
+
+        //example of how we would store the chat response.
+        //we don't want to trigger it immediately so that we can process the text-to-speech
+        //we want to wait until the audio clip is processed before triggering the speech animation,
+        //but when that happens we want to know which animation to play
         if (response.Contains("idle"))
         {
-            TriggerIdle();
+            mostRecentlyParsedAnimation = "idle";
         }
         else if (response.Contains("nodding"))
         {
-            TriggerNodding();
+            mostRecentlyParsedAnimation = "nodding";
         }
         else
         {
             Debug.Log("No matching trigger word found in response: " + response);
         }
+        
     }
 }
