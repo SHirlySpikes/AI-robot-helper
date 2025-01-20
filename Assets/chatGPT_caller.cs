@@ -15,7 +15,7 @@ public class ChatGPTCCaller : MonoBehaviour
     Coroutine idleTimer;
 
     private List<ChatMessage> messages = new List<ChatMessage>();
-    private string prompt = "Act as a helpful robot assistant at a conference hall. Answer questions and provide directions. Use keywords like 'idle' or 'nodding' to trigger animations.";
+    private string prompt = "Act as a helpful robot assistant at a conference hall. Answer questions and provide directions.";
     public string mostRecentlyParsedAnimation;
 
     void Start()
